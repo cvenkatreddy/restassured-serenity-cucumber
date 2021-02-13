@@ -1,6 +1,6 @@
 # RestAssuredSerenityCucumber Framework
 
-This is a sample Rest API test solution for sample endpoints available in https://restful-booker.herokuapp.com/apidoc/index.html The published APIs represent a blog application where users can publish post and comment on them.
+This is a sample Rest API test solution for sample endpoints available in https://restful-booker.herokuapp.com/apidoc/index.html The published APIs represent a booking system where user can create, update and cancel bookings.
 
 Tests are written using a combination of SerenityBDD, RestAssured, Cucumber, Junit & Maven.
 
