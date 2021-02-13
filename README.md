@@ -21,18 +21,25 @@ We are using Restful-Booker APIs as the Application Under Test.
 
 ## The project directory structure
 The project follows the standard directory structure used in most Serenity projects:
+
 ```Gherkin
 src
   + main
-    + java                        contains pojos of each json placeholder endpoint
+    + java                          
+      + env                         methods to get/set env related configs
+      + models                      pojos of all endpoints
+      + utilities                   utility methods and constants
   + test
-    + java                        Test runners, step definitions and supporting code
+    + java                          
+      + endpoints                   endpoints of the services
+      + runners                     test runner(senerity runner/trigger configurations)
+      + stepdefinitions             Step definitions for the BDD feature
+      + utils                       Common utility methods
     + resources
       + features                  Feature files
-         Booking.feature
+      + properties                AUT properties files
+      + logback.xml               for rebug logs
 ```
-
-
 Following instructions will help you running the project. First, clone this project locally on your machine from the master branch.
 
 ### Installation and Test Execution
@@ -60,3 +67,8 @@ You can find the Serenity reports in the following directory of the Project.
 ```
 
 In the serenity directory, open 'index.html' file to view the report.
+
+### Finally Source code, Please refer
+
+* Github (https://github.com/cvenkatreddy/restassured-serenity-cucumber) with circleci integration(Config.yml)
+* GitLab (https://gitlab.com/cvenkatreddy/restassured-serenity-cucumber) with gitlab integration (.gitlab-ci.yml)
