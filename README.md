@@ -72,12 +72,14 @@ You can find the Serenity reports in the following directory of the Project.
 In the serenity directory, open 'index.html' file to view the report.
 
 If we make any push/pull/any change to code, will automatically trigger the builds in both circleci and gitlab, reports are shown here [https://4-338524524-gh.circle-artifacts.com/0/target/site/serenity/index.html] and some results screenshots are attached herewith as well
-```
-https://4-338524524-gh.circle-artifacts.com/0/target/site/serenity/3a150e0886d4f3778244668b3c48c7ec22ba1bb143c571df3bfc79d6bbf8413c.html
-https://4-338524524-gh.circle-artifacts.com/0/target/site/serenity/b5422f8413aebb5473f0c7772d254e632456fb69d3d8f60ad7998fc178f0dc3f.html
-```
+
+![Alt text](https://github.com/cvenkatreddy/restassured-serenity-cucumber/blob/master/Screenshot%202021-02-13%20at%2016.26.28.png)
+![Alt text](https://github.com/cvenkatreddy/restassured-serenity-cucumber/blob/master/Screenshot%202021-02-13%20at%2016.28.35.png)
 
 ### Finally Source code, Please refer
 
 * Github (https://github.com/cvenkatreddy/restassured-serenity-cucumber) with circleci integration(Config.yml)
 * GitLab (https://gitlab.com/cvenkatreddy/restassured-serenity-cucumber) with gitlab integration (.gitlab-ci.yml)
+
+![Alt text](https://github.com/cvenkatreddy/restassured-serenity-cucumber/blob/master/Screenshot%202021-02-13%20at%2016.25.22.png)
+![Alt text](https://github.com/cvenkatreddy/restassured-serenity-cucumber/blob/master/Screenshot%202021-02-13%20at%2016.37.20.png)
