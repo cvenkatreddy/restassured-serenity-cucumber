@@ -1,6 +1,9 @@
 # RestAssuredSerenityCucumber Framework
 
-A simple maven project demonstrating automated API tests using RestAssured and Serenity BDD.
+This is a sample Rest API test solution for sample endpoints available in https://restful-booker.herokuapp.com/ The published APIs represent a blog application where users can publish post and comment on them.
+
+Tests are written using a combination of SerenityBDD, RestAssured, Cucumber, Junit & Maven.
+
 ## Technology Stack
 
 - Java
@@ -67,6 +70,8 @@ You can find the Serenity reports in the following directory of the Project.
 ```
 
 In the serenity directory, open 'index.html' file to view the report.
+
+If we make any push/pull/any change to code, will automatically trigger the builds in both circleci and gitlab, reports are shown here [https://4-338524524-gh.circle-artifacts.com/0/target/site/serenity/index.html]
 
 ### Finally Source code, Please refer
 
