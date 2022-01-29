@@ -41,7 +41,7 @@ src
     + resources
       + features                  Feature files
       + properties                AUT properties files
-      + logback.xml               for rebug logs
+      + logback.xml               for debug logs
 ```
 Following instructions will help you running the project. First, clone this project locally on your machine from the master branch.
 
